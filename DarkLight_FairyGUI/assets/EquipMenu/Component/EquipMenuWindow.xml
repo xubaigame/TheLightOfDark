@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="445,477">
+  <displayList>
+    <component id="n0_wrvs" name="frame" src="qc6h9" pkg="q0h43ypj" xy="0,0"/>
+    <image id="n1_wrvs" name="Title" src="wrvs1" xy="115,0">
+      <relation target="" sidePair="center-center%,top-top%"/>
+    </image>
+    <image id="n2_wrvs" name="HeadgearSlot" src="wrvs2" xy="40,120">
+      <relation target="n0_wrvs" sidePair="left-left%,top-top%"/>
+    </image>
+    <image id="n3_wrvs" name="RightSlot" src="wrvs2" xy="40,240">
+      <relation target="n0_wrvs" sidePair="left-left%,middle-middle%"/>
+    </image>
+    <image id="n4_wrvs" name="ArmorSlot" src="wrvs2" xy="40,359">
+      <relation target="n0_wrvs" sidePair="left-left%,bottom-bottom%"/>
+    </image>
+    <image id="n5_wrvs" name="AccessorySlot" src="wrvs2" xy="344,120">
+      <relation target="n0_wrvs" sidePair="right-right%,top-top%"/>
+    </image>
+    <image id="n6_wrvs" name="LeftSlot" src="wrvs2" xy="344,240">
+      <relation target="n0_wrvs" sidePair="right-right%,middle-middle%"/>
+    </image>
+    <image id="n7_wrvs" name="ShoeSlot" src="wrvs2" xy="344,359">
+      <relation target="n0_wrvs" sidePair="right-right%,bottom-bottom%"/>
+    </image>
+    <text id="n8_wrvs" name="n8" xy="42,77" size="64,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="头盔">
+      <relation target="n2_wrvs" sidePair="center-center%,bottom-top%"/>
+    </text>
+    <text id="n9_wrvs" name="n9" xy="346,77" size="64,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="饰品">
+      <relation target="n5_wrvs" sidePair="center-center%,bottom-top%"/>
+    </text>
+    <text id="n10_wrvs" name="n10" xy="42,197" size="64,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="右手">
+      <relation target="n3_wrvs" sidePair="center-center%,bottom-top%"/>
+    </text>
+    <text id="n11_wrvs" name="n11" xy="346,198" size="64,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="左手">
+      <relation target="n6_wrvs" sidePair="center-center%,bottom-top%"/>
+    </text>
+    <text id="n12_wrvs" name="n12" xy="42,316" size="64,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="盔甲">
+      <relation target="n4_wrvs" sidePair="center-center%,bottom-top%"/>
+    </text>
+    <text id="n13_wrvs" name="n13" xy="346,316" size="64,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="鞋子">
+      <relation target="n7_wrvs" sidePair="center-center%,bottom-top%"/>
+    </text>
+    <loader id="n14_wrvs" name="Headgear" xy="46,125" size="57,59" align="center" vAlign="middle" fill="scale">
+      <relation target="n2_wrvs" sidePair="width-width%,height-height%"/>
+    </loader>
+    <loader id="n15_wrvs" name="Accessory" xy="350,125" size="57,59" align="center" vAlign="middle" fill="scale">
+      <relation target="n5_wrvs" sidePair="center-center%,middle-middle%"/>
+    </loader>
+    <loader id="n16_wrvs" name="Right" xy="47,245" size="57,59" align="center" vAlign="middle" fill="scale">
+      <relation target="n3_wrvs" sidePair="center-center%,middle-middle%"/>
+    </loader>
+    <loader id="n17_wrvs" name="Left" xy="351,244" size="57,59" align="center" vAlign="middle" fill="scale">
+      <relation target="n6_wrvs" sidePair="center-center%,middle-middle%"/>
+    </loader>
+    <loader id="n18_wrvs" name="Armor" xy="46,364" size="57,59" align="center" vAlign="middle" fill="scale">
+      <relation target="n4_wrvs" sidePair="center-center%,middle-middle%"/>
+    </loader>
+    <loader id="n19_wrvs" name="Shoe" xy="351,364" size="57,59" align="center" vAlign="middle" fill="scale">
+      <relation target="n7_wrvs" sidePair="center-center%,middle-middle%"/>
+    </loader>
+  </displayList>
+</component>

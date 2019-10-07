@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="xubvi479" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="b01t1" name="Button-Closet.png" path="/Res/"/>
+    <image id="b01t2" name="Button-ClosetDown.png" path="/Res/"/>
+    <image id="b01t3" name="Menu-WindowQuest.png" path="/Res/" scale="9grid" scale9grid="27,74,390,372"/>
+    <component id="l7bh4" name="WindowFrame.xml" path="/Component/" exported="true"/>
+    <component id="l7bh5" name="ButtonClose.xml" path="/Component/" exported="true"/>
+    <component id="l7bh6" name="TaskMenuWindow.xml" path="/Component/" exported="true"/>
+    <image id="b28u7" name="Button-Accept.png" path="/Res/"/>
+    <image id="b28u8" name="Button-Accept-Down.png" path="/Res/"/>
+    <image id="b28u9" name="button-cancel2.png" path="/Res/"/>
+    <image id="b28ua" name="button-cancel2-down.png" path="/Res/"/>
+    <component id="b28ub" name="AcceptButton.xml" path="/Component/" exported="true"/>
+    <component id="b28uc" name="CancelButon.xml" path="/Component/" exported="true"/>
+    <component id="b28ud" name="TaskDes.xml" path="/Component/" exported="true"/>
+    <sound id="b28ue" name="sfx_nextDialog.wav" path="/Res/"/>
+    <image id="b28uf" name="Button-Ok.png" path="/Res/"/>
+    <image id="b28ug" name="Button-Ok-Down.png" path="/Res/"/>
+    <component id="b28uh" name="FinishButton.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="TaskMenu" path="F:\Unity\Projects\Dark Light\Unity\源码\Dark Light\Assets\Resources\FairyGUI\TaskMenu"/>
+</packageDescription>

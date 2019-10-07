@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" opaque="false" adaptationTest="FitSize">
+  <displayList>
+    <component id="n0_qc6h" name="StatusButton" src="qc6hg" fileName="Component/StatusButton.xml" xy="1065,940" size="170,140">
+      <relation target="n1_qc6h" sidePair="right-left%,middle-middle%"/>
+    </component>
+    <component id="n1_qc6h" name="BagButton" src="gd3mc" fileName="Component/BagButton.xml" xy="1240,940" size="170,140">
+      <relation target="n2_qc6h" sidePair="right-left%,middle-middle%"/>
+    </component>
+    <component id="n2_qc6h" name="EquipButton" src="gd3md" fileName="Component/EquipButton.xml" xy="1410,940" size="170,140">
+      <relation target="n3_qc6h" sidePair="right-left%,middle-middle%"/>
+    </component>
+    <component id="n3_qc6h" name="SkillButton" src="qc6hf" fileName="Component/SkillButton.xml" xy="1580,939" size="170,140">
+      <relation target="n4_qc6h" sidePair="right-left%,middle-middle%"/>
+    </component>
+    <component id="n4_qc6h" name="SettingButton" src="qc6he" fileName="Component/SettingButton.xml" xy="1750,940" size="170,140">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </component>
+    <list id="n18_dj5y" name="ShortCutList" xy="20,970" size="470,70" layout="row" overflow="hidden" colGap="10" autoClearItems="true">
+      <relation target="" sidePair="left-left%,bottom-bottom%"/>
+      <item url="ui://tf10qu8xdj5yh"/>
+      <item url="ui://tf10qu8xdj5yh"/>
+      <item url="ui://tf10qu8xdj5yh"/>
+      <item url="ui://tf10qu8xdj5yh"/>
+      <item url="ui://tf10qu8xdj5yh"/>
+      <item url="ui://tf10qu8xdj5yh"/>
+    </list>
+    <graph id="n30_dj5y" name="UpMesk" xy="2,2" size="692,254" group="n34_jbht" alpha="0" type="rect"/>
+    <text id="n21_dj5y" name="NameText" xy="218,10" size="73,39" group="n25_dj5y" fontSize="30" color="#ffff00" text="姓名:">
+      <relation target="n20_dj5y" sidePair="left-right%,top-top%"/>
+    </text>
+    <text id="n23_dj5y" name="Name" xy="296,10" size="184,39" group="n25_dj5y" fontSize="30" color="#ffff00" autoSize="none" text="">
+      <relation target="n21_dj5y" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <group id="n25_dj5y" name="NameGroup" xy="218,10" size="262,39" group="n34_jbht" collapsed="true"/>
+    <text id="n22_dj5y" name="LvText" xy="219,65" size="73,39" group="n26_dj5y" fontSize="30" color="#ffff00" text="等级:">
+      <relation target="n23_dj5y" sidePair="center-center%,top-bottom%"/>
+    </text>
+    <text id="n24_dj5y" name="LV" xy="300,64" size="56,39" group="n26_dj5y" fontSize="30" color="#ffff00" text="999">
+      <relation target="n22_dj5y" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <group id="n26_dj5y" name="LVGroup" xy="219,64" size="137,40" group="n34_jbht" collapsed="true"/>
+    <graph id="n20_dj5y" name="Face" xy="2,2" size="207,188" group="n27_dj5y">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </graph>
+    <image id="n33_jbht" name="FaceBG" src="jbht11" fileName="Res/frame-minimap.png" xy="0,0" size="215,189" group="n27_dj5y">
+      <relation target="n20_dj5y" sidePair="center-center%,middle-middle%"/>
+      <relation target="n20_dj5y" sidePair="width-width%,height-height%"/>
+    </image>
+    <group id="n27_dj5y" name="FaceGroup" xy="0,0" size="215,190" group="n34_jbht" collapsed="true"/>
+    <component id="n28_dj5y" name="HPSlider" src="dj5yw" fileName="Component/HPSlider.xml" xy="211,96" size="378,41" group="n34_jbht">
+      <relation target="n22_dj5y" sidePair="left-left%,top-bottom%"/>
+      <Slider max="100"/>
+    </component>
+    <component id="n29_dj5y" name="MPSlider" src="dj5yz" fileName="Component/MPSlider.xml" xy="213,146" group="n34_jbht">
+      <relation target="n28_dj5y" sidePair="left-left%,top-bottom%"/>
+      <Slider max="100"/>
+    </component>
+    <component id="n40_rqqd" name="ExpSlider" src="rqqd1b" fileName="Component/ExpSlider.xml" xy="2,212" group="n34_jbht">
+      <relation target="n20_dj5y" sidePair="left-left%,top-bottom%"/>
+      <Slider max="100"/>
+    </component>
+    <group id="n34_jbht" name="Up" xy="0,0" size="694,256" collapsed="true"/>
+    <graph id="n35_jbht" name="MiniMap" xy="1662,0" size="256,256" group="n37_jbht">
+      <relation target="" sidePair="right-right%,top-top%"/>
+    </graph>
+    <image id="n36_jbht" name="MiniMapBG" src="jbht11" fileName="Res/frame-minimap.png" xy="1661,0" size="256,256" group="n37_jbht">
+      <relation target="n35_jbht" sidePair="width-width%,height-height%"/>
+      <relation target="n35_jbht" sidePair="center-center%,middle-middle%"/>
+    </image>
+    <component id="n38_jbht" name="ZoomOut" src="jbht12" fileName="Component/AddCountButton.xml" xy="1664,0" size="76,76" group="n37_jbht">
+      <relation target="n35_jbht" sidePair="left-left%,top-top%"/>
+      <relation target="n35_jbht" sidePair="width-width%,height-height%"/>
+    </component>
+    <component id="n39_jbht" name="ZoomIn" src="jbht15" fileName="Component/CutCountButton.xml" xy="1834,0" size="76,75" group="n37_jbht">
+      <relation target="n35_jbht" sidePair="right-right%,top-top%"/>
+      <relation target="n35_jbht" sidePair="width-width%,height-height%"/>
+    </component>
+    <group id="n37_jbht" name="MiniMapGroup" xy="1661,0" size="257,256" collapsed="true"/>
+    <graph id="n45_jqzr" name="GMsk" xy="0,0" size="1920,1080" group="n44_jqzr" alpha="0.33" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </graph>
+    <image id="n41_jqzr" name="GameOverBG" src="qc6h7" fileName="Res/Menu-Window.png" pkg="q0h43ypj" xy="625,172" size="628,686" group="n44_jqzr"/>
+    <text id="n42_jqzr" name="Title" xy="698,286" size="505,116" group="n44_jqzr" fontSize="100" color="#ff0000" text="你已经死亡"/>
+    <component id="n43_jqzr" name="QuitGameButton" src="jqzr1e" fileName="Component/QuitGame.xml" xy="823,646" size="233,101" group="n44_jqzr"/>
+    <group id="n44_jqzr" name="GameOver" xy="0,0" size="1920,1080" advanced="true" collapsed="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </group>
+    <graph id="n5_qc6h" name="Mask1" xy="1062,937" size="857,143" group="n10_qc6h" alpha="0" type="rect">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </graph>
+    <group id="n10_qc6h" name="Mask" xy="1062,937" size="857,143" advanced="true" collapsed="true"/>
+  </displayList>
+</component>

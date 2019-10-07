@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="445,477">
+  <displayList>
+    <component id="n0_ok4i" name="frame" src="qc6h9" fileName="Component/WindowFrame.xml" pkg="q0h43ypj" xy="0,0">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </component>
+    <image id="n1_ok4i" name="TitleBG" src="ok4i6" fileName="Res/window-amoutdrop.png" xy="115,0" size="223,73" group="n4_ok4i">
+      <relation target="" sidePair="center-center%,top-top%"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </image>
+    <text id="n3_ok4i" name="Title" xy="125,7" size="205,61" group="n4_ok4i" fontSize="50" color="#ffffff" text="系统设置">
+      <relation target="n1_ok4i" sidePair="center-center%,middle-middle%"/>
+    </text>
+    <group id="n4_ok4i" name="TitleGroup" xy="115,0" size="223,73" collapsed="true"/>
+    <text id="n5_ok4i" name="SoundText" xy="24,139" size="255,61" fontSize="50" color="#ffffff" text="声音选项：">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </text>
+    <component id="n6_ok4i" name="SoundButton" src="ok4i3" fileName="Components/MuteButton.xml" xy="331,130" size="75,75">
+      <relation target="n5_ok4i" sidePair="left-right%,middle-middle%"/>
+    </component>
+    <component id="n7_ok4i" name="QuitGameButton" src="ok4ia" fileName="Components/QuitGameButton.xml" xy="140,368">
+      <relation target="" sidePair="center-center%,bottom-bottom%"/>
+    </component>
+  </displayList>
+</component>

@@ -1,0 +1,67 @@
+﻿[
+  {
+    "PackageName": "ResComponent",
+    "WindowName": "",
+    "UIWindowType": 0
+  },
+  {
+    "PackageName": "ResGame",
+    "WindowName": "",
+    "UIWindowType": 0
+  },
+  {
+    "PackageName": "LoginMenu",
+    "WindowName": "LoginMenuWindow",
+    "UIWindowType": 1
+  },
+  {
+    "PackageName": "StartMenu",
+    "WindowName": "StartMenuWindow",
+    "UIWindowType": 2
+  },
+  {
+    "PackageName": "SelectMenu",
+    "WindowName": "SelectMenuWindow",
+    "UIWindowType": 3
+  },
+  {
+    "PackageName": "MainMenu",
+    "WindowName": "MainMenuWindow",
+    "UIWindowType": 4
+  },
+  {
+    "PackageName": "TaskMenu",
+    "WindowName": "TaskMenuWindow",
+    "UIWindowType": 5
+  },
+  {
+    "PackageName": "BagMenu",
+    "WindowName": "BagMenuWindow",
+    "UIWindowType": 6
+  },
+  {
+    "PackageName": "StatusMenu",
+    "WindowName": "StatusMenuWindow",
+    "UIWindowType": 7
+  },
+  {
+    "PackageName": "ShopMenu",
+    "WindowName": "ShopMenuWindow",
+    "UIWindowType": 8
+  },
+  {
+    "PackageName": "EquipMenu",
+    "WindowName": "EquipMenuWindow",
+    "UIWindowType": 9
+  },
+  {
+    "PackageName": "SkillMenu",
+    "WindowName": "SkillMenuWindow",
+    "UIWindowType": 10
+  },
+  {
+    "PackageName": "SystemMenu",
+    "WindowName": "SystemMenuWindow",
+    "UIWindowType": 11
+  }
+]

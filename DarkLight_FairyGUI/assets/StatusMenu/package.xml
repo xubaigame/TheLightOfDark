@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="w6xiao1z" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="uk090" name="Button-PlusStat.png" path="/Res/"/>
+    <image id="uk091" name="Button-PlusStatDown.png" path="/Res/"/>
+    <image id="uk092" name="MenuHead-Status.png" path="/Res/"/>
+    <component id="uk093" name="StatusMenuWindow.xml" path="/Component/" exported="true"/>
+    <component id="uk094" name="AddPinotButton.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="StatusMenu" path="F:\Unity\Projects\Dark Light\Unity\Code\Dark Light\Assets\Resources\FairyGUI\EquipMenu"/>
+</packageDescription>

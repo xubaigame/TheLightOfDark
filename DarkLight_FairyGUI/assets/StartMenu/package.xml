@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="2yserxac" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="m9x70" name="StartMenuWindow.xml" path="/Component/" exported="true"/>
+    <image id="m9x71" name="whitescreen.png" path="/Res/"/>
+    <image id="m2tz2" name="button-loadgame.png" path="/Res/"/>
+    <image id="m2tz4" name="button-loadgame-down.png" path="/Res/"/>
+    <image id="m2tz5" name="button-newgame.png" path="/Res/"/>
+    <image id="m2tz6" name="button-newgame-down.png" path="/Res/"/>
+    <image id="m2tz7" name="pressanykey.png" path="/Res/"/>
+    <image id="m2tz8" name="title.png" path="/Res/"/>
+    <sound id="xg0mc" name="button.mp3" path="/Res/"/>
+    <component id="xg0me" name="LoadGameButton.xml" path="/Component/" exported="true"/>
+    <component id="xg0mf" name="NewGameButton.xml" path="/Component/" exported="true"/>
+    <image id="jixgg" name="黑暗之光.png" path="/Res/"/>
+  </resources>
+  <publish name="StartMenu" path="F:\Unity\Projects\Dark Light\Unity\Code\Dark Light\Assets\Resources\FairyGUI\StartMenu"/>
+</packageDescription>

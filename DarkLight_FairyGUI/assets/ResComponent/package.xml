@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="q0h43ypj" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="qc6h0" name="Button-Closet.png" path="/Res/" exported="true"/>
+    <image id="qc6h1" name="Button-ClosetDown.png" path="/Res/" exported="true"/>
+    <image id="qc6h2" name="MenuHead-Equip.png" path="/Res/" exported="true"/>
+    <image id="qc6h3" name="MenuHead-Inventory.png" path="/Res/" exported="true"/>
+    <image id="qc6h4" name="MenuHead-Shop.png" path="/Res/" exported="true"/>
+    <image id="qc6h5" name="MenuHead-Skill.png" path="/Res/" exported="true"/>
+    <image id="qc6h6" name="MenuHead-Status.png" path="/Res/" exported="true"/>
+    <image id="qc6h7" name="Menu-Window.png" path="/Res/" exported="true" scale="9grid" scale9grid="35,66,370,381"/>
+    <component id="qc6h8" name="CloseButton.xml" path="/Component/" exported="true"/>
+    <component id="qc6h9" name="WindowFrame.xml" path="/Component/" exported="true"/>
+    <component id="oo0ed" name="ToolTips.xml" path="/Component/" exported="true"/>
+    <image id="oo0ee" name="Menu-ToolTips.png" path="/Res/" exported="true" scale="9grid" scale9grid="30,27,383,382"/>
+  </resources>
+  <publish name="ResComponent" path="F:\Unity\Projects\Dark Light\Unity\Code\Dark Light\Assets\Resources\FairyGUI\ResComponent"/>
+</packageDescription>

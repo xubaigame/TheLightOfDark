@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="qt1hjre8" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="qc6h0" name="Slot-layout.png" path="/Res/"/>
+    <image id="qc6h1" name="Button-Closet.png" path="/Res/"/>
+    <image id="qc6h2" name="Button-ClosetDown.png" path="/Res/"/>
+    <image id="qc6h3" name="coin-icon.png" path="/Res/"/>
+    <image id="qc6h4" name="icon-potion1.png" path="/Res/"/>
+    <image id="qc6h5" name="icon-potion3.png" path="/Res/"/>
+    <image id="qc6h6" name="Menu-WindowInventory.png" path="/Res/"/>
+    <component id="qc6h8" name="BagMenuWindow.xml" path="/Component/" exported="true"/>
+    <component id="qc6h9" name="SlotButton.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="BagMenu" path="F:\Unity\Projects\Dark Light\Unity\源码\Dark Light\Assets\Resources\FairyGUI\BagMenu"/>
+</packageDescription>

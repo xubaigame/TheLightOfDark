@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="4wjmsaxh" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="xg0m0" name="button-Next.png" path="/Res/"/>
+    <image id="xg0m1" name="button-Next-Down.png" path="/Res/"/>
+    <image id="xg0m2" name="Button-Ok.png" path="/Res/"/>
+    <image id="xg0m3" name="Button-Ok-Down.png" path="/Res/"/>
+    <image id="xg0m4" name="button-Prev.png" path="/Res/"/>
+    <image id="xg0m5" name="button-Prev-Down.png" path="/Res/"/>
+    <image id="xg0m6" name="text-charcreate.png" path="/Res/"/>
+    <image id="xg0m7" name="text-entername.png" path="/Res/"/>
+    <sound id="xg0m8" name="button.mp3" path="/Res/"/>
+    <component id="xg0m9" name="NextButton.xml" path="/Component/" exported="true"/>
+    <component id="xg0ma" name="PrevButton.xml" path="/Component/" exported="true"/>
+    <component id="xg0mb" name="OKButton.xml" path="/Component/" exported="true"/>
+    <component id="xg0mc" name="SelectMenuWindow.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="SelectMenu" path="F:\Unity\Projects\Dark Light\Unity\联网版\Dark Light\Assets\Resources\FairyGUI\SelectMenu"/>
+</packageDescription>

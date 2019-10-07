@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="pwuy6i42" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="dvhh0" name="Button-Buy.png" path="/Res/"/>
+    <image id="dvhh1" name="Button-Buy-Down.png" path="/Res/"/>
+    <image id="dvhh3" name="LabelTag.png" path="/Res/"/>
+    <image id="dvhh4" name="mapname.png" path="/Res/"/>
+    <image id="dvhh5" name="MenuHead-Shop.png" path="/Res/"/>
+    <image id="dvhh6" name="Menu-WindowShop.png" path="/Res/"/>
+    <image id="dvhh7" name="minimap-zoomin.png" path="/Res/"/>
+    <image id="dvhh8" name="minimap-zoomin-down.png" path="/Res/"/>
+    <image id="dvhh9" name="minimap-zoomout.png" path="/Res/"/>
+    <image id="dvhha" name="minimap-zoomout-down.png" path="/Res/"/>
+    <component id="dvhhb" name="AddCountButton.xml" path="/Component/" exported="true"/>
+    <component id="dvhhc" name="CutCountButton.xml" path="/Component/" exported="true"/>
+    <component id="dvhhd" name="ShopListItem.xml" path="/Component/" exported="true"/>
+    <image id="dvhhe" name="infoname.png" path="/Res/" scale="9grid" scale9grid="6,5,176,27"/>
+    <component id="dvhhf" name="BuyPointButton.xml" path="/Component/" exported="true"/>
+    <component id="dvhhg" name="ShopMenuWindow.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="ShopMenu" path="F:\Unity\Projects\Dark Light\Unity\源码\Dark Light\Assets\Resources\FairyGUI\ShopMenu"/>
+</packageDescription>

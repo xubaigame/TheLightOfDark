@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="69,69" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n1" name="BG" src="qc6h0" xy="0,0">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <loader id="n2_qc6h" name="icon" xy="7,5" size="55,59" fill="scale">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </loader>
+    <text id="n3_qc6h" name="title" xy="46,48" size="22,21" fontSize="12" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </text>
+  </displayList>
+  <Button downEffect="dark" downEffectValue="0.90"/>
+</component>

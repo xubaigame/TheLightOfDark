@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="75,75" extention="Button">
+  <controller name="button" pages="0,up,1,down" selected="0"/>
+  <displayList>
+    <text id="n4_ok4i" name="Mute" xy="0,0" size="75,75" fontSize="30" color="#ff0000" align="center" vAlign="middle" autoSize="none" strokeColor="#00ff00" shadowColor="#00ff00" shadowOffset="1,1" text="静音">
+      <gearText controller="button" pages="0" values="静音" default="有音"/>
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </text>
+  </displayList>
+  <Button mode="Check"/>
+</component>

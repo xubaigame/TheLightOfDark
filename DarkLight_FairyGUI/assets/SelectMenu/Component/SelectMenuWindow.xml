@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" adaptationTest="FitSize">
+  <displayList>
+    <image id="n0_xg0m" name="Title" src="xg0m6" fileName="Res/text-charcreate.png" xy="635,64" size="650,90">
+      <relation target="" sidePair="top-top%,center-center%"/>
+    </image>
+    <component id="n1_xg0m" name="NextButton" src="xg0m9" fileName="Component/NextButton.xml" xy="1460,600" size="80,80">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </component>
+    <component id="n2_xg0m" name="PrevButton" src="xg0ma" fileName="Component/PrevButton.xml" xy="440,600" size="80,80">
+      <relation target="" sidePair="left-left%,bottom-bottom%"/>
+    </component>
+    <image id="n3_xg0m" name="NameTitle" src="xg0m7" fileName="Res/text-entername.png" xy="790,865">
+      <relation target="" sidePair="bottom-bottom%,center-center%"/>
+    </image>
+    <text id="n4_xg0m" name="UserName" xy="1002,861" size="280,61" input="true" prompt="请输入名字" maxLength="9" restrict="[a-z]" font="宋体" fontSize="50" vAlign="middle" autoSize="none" text="">
+      <relation target="n3_xg0m" sidePair="left-left,top-top"/>
+    </text>
+    <component id="n5_xg0m" name="OkButton" src="xg0mb" fileName="Component/OKButton.xml" xy="980,980" size="120,80">
+      <relation target="" sidePair="bottom-bottom%,center-center%"/>
+    </component>
+    <graph id="n6_g5ie" name="Mask" xy="0,0" size="1920,1080" alpha="0" type="rect" fillColor="#ff000000">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </graph>
+  </displayList>
+  <transition name="ChangeScene">
+    <item time="0" type="Alpha" target="n6_g5ie" tween="true" startValue="0" endValue="1" duration="12"/>
+  </transition>
+</component>

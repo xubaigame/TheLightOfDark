@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="370,277" overflow="scroll">
+  <displayList>
+    <text id="n0_b28u" name="Des" xy="-1,0" size="370,44" fontSize="35" align="center" ubb="true" autoSize="height" text="">
+      <relation target="" sidePair="left-left,top-top"/>
+    </text>
+  </displayList>
+</component>

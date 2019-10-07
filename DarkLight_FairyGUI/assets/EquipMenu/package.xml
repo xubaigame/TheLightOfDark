@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="mdt9g9gg" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="wrvs0" name="EquipMenuWindow.xml" path="/Component/" exported="true"/>
+    <image id="wrvs1" name="MenuHead-Equip.png" path="/Res/"/>
+    <image id="wrvs2" name="Slot-layout.png" path="/Res/"/>
+  </resources>
+  <publish name="EquipMenu" path="F:\Unity\Projects\Dark Light\Unity\Code\Dark Light\Assets\Resources\FairyGUI\EquipMenu"/>
+</packageDescription>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="6vtcqfh3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="dj5y0" name="MenuHead-Skill.png" path="/Res/"/>
+    <image id="dj5y1" name="Menu-WindowSkill.png" path="/Res/"/>
+    <image id="dj5y2" name="shortcutskill.png" path="/Res/"/>
+    <image id="dj5y3" name="skill-01.png" path="/Res/"/>
+    <image id="dj5y4" name="icon-null.png" path="/Res/"/>
+    <component id="dj5y5" name="SkillMenuWindow.xml" path="/Component/" exported="true"/>
+    <component id="dj5y6" name="SkillListItem.xml" path="/Component/" exported="true"/>
+    <image id="dj5y7" name="infoname.png" path="/Res/" scale="9grid" scale9grid="6,5,176,27"/>
+  </resources>
+  <publish name="SkillMenu" path="F:\Unity\Projects\Dark Light\Unity\Code\Dark Light\Assets\Resources\FairyGUI\SkillMenu"/>
+</packageDescription>

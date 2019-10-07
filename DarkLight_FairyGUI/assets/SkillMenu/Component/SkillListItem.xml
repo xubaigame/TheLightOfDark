@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="410,120" overflow="hidden">
+  <displayList>
+    <image id="n5_dj5y" name="BG" src="dj5y7" xy="0,0" size="410,120"/>
+    <loader id="n0_dj5y" name="icon" xy="1,0" size="128,120" align="center" vAlign="middle" fill="scale">
+      <relation target="" sidePair="left-left%,height-height%"/>
+    </loader>
+    <text id="n1_dj5y" name="Name" xy="127,0" size="190,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" ubb="true" autoSize="height" text="致命一击">
+      <relation target="n0_dj5y" sidePair="right-left%,top-top%"/>
+    </text>
+    <text id="n2_dj5y" name="Effect" xy="316,0" size="94,39" fontSize="30" color="#ff0000" align="center" vAlign="middle" ubb="true" autoSize="none" text="增益">
+      <relation target="n1_dj5y" sidePair="right-left%,middle-middle%"/>
+    </text>
+    <text id="n3_dj5y" name="Des" xy="127,39" size="190,81" fontSize="20" color="#ffff00" vAlign="middle" ubb="true" autoSize="none" text="下一次普通攻击对敌人造成200%的伤害">
+      <relation target="n1_dj5y" sidePair="center-center%,top-bottom%"/>
+    </text>
+    <text id="n4_dj5y" name="Consume" xy="317,39" size="94,81" fontSize="30" color="#00ccff" align="center" vAlign="middle" ubb="true" autoSize="none" text="10MP">
+      <relation target="n0_dj5y" sidePair="right-left%,top-top%"/>
+    </text>
+  </displayList>
+</component>

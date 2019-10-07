@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,516" pivot="0.5,0.5">
+  <displayList>
+    <component id="n0_l7bh" name="frame" src="l7bh4" xy="1,0" size="400,516"/>
+    <component id="n4_b28u" name="AcceptButton" src="b28ub" xy="137,428">
+      <relation target="n0_l7bh" sidePair="left-left,bottom-bottom"/>
+    </component>
+    <component id="n5_b28u" name="CancelButton" src="b28uc" xy="231,428">
+      <relation target="n0_l7bh" sidePair="right-right,bottom-bottom"/>
+    </component>
+    <component id="n9_b28u" name="FinishButton" src="b28uh" xy="41,431" size="141,59"/>
+    <component id="n10_lxn7" name="Des" src="b28ud" xy="17,101"/>
+  </displayList>
+  <relation target="n0_l7bh" sidePair="height-height"/>
+</component>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="400,475">
+  <displayList>
+    <image id="n0_l7bh" name="BG" src="b01t3" xy="0,0" size="400,475">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <component id="n1_l7bh" name="closeButton" src="l7bh5" xy="350,14" size="50,47">
+      <relation target="n0_l7bh" sidePair="right-right,top-top"/>
+    </component>
+    <graph id="n2_l7bh" name="dragArea" xy="92,0" size="214,75">
+      <relation target="n0_l7bh" sidePair="center-center,top-top"/>
+    </graph>
+  </displayList>
+</component>

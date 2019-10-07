@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="445,477">
+  <displayList>
+    <image id="n0_s2b2" name="BG" src="qc6h7" fileName="Res/Menu-Window.png" pkg="q0h43ypj" xy="0,0" size="445,477">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </image>
+    <image id="n11_s2b2" name="TitleBG" src="s2b22" fileName="Res/window-amoutdrop.png" xy="136,0" size="175,100">
+      <relation target="" sidePair="center-center%,top-top%"/>
+    </image>
+    <text id="n3_s2b2" name="title" xy="167,18" size="118,61" fontSize="50" color="#ffffff" text="登 录">
+      <relation target="n11_s2b2" sidePair="center-center%,middle-middle%"/>
+    </text>
+    <text id="n4_s2b2" name="UserNameField" xy="30,131" size="165,49" fontSize="40" color="#ffff00" text="用户名：">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </text>
+    <text id="n5_s2b2" name="UserPasswordField" xy="30,239" size="170,49" fontSize="40" color="#00ff00" text="密    码：">
+      <relation target="n4_s2b2" sidePair="left-left%,middle-middle%"/>
+    </text>
+    <text id="n6_s2b2" name="UserName" xy="221,130" size="189,49" group="n13_s2b2" input="true" maxLength="10" restrict="[0-9]" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="n4_s2b2" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <image id="n9_s2b2" name="UserNameBG" src="s2b21" fileName="Res/mapname.png" xy="210,119" size="209,70" group="n13_s2b2">
+      <relation target="n4_s2b2" sidePair="left-right%,middle-middle%"/>
+    </image>
+    <group id="n13_s2b2" name="UserName" xy="210,119" size="209,70" collapsed="true"/>
+    <text id="n7_s2b2" name="UserPassWord" xy="222,239" size="190,49" group="n14_s2b2" input="true" password="true" fontSize="40" color="#ffffff" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="n5_s2b2" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <image id="n10_s2b2" name="UserPasswordBG" src="s2b21" fileName="Res/mapname.png" xy="210,228" size="209,70" group="n14_s2b2">
+      <relation target="n5_s2b2" sidePair="left-right%,middle-middle%"/>
+    </image>
+    <group id="n14_s2b2" name="UserPwd" xy="210,228" size="209,71" collapsed="true"/>
+    <text id="n8_s2b2" name="Tooltips" xy="128,354" size="165,49" fontSize="40" color="#ff0000" align="center" vAlign="middle" text="密码错误">
+      <relation target="" sidePair="center-center%,bottom-bottom%"/>
+    </text>
+    <text id="n12_s2b2" name="ligjt" xy="83,317" size="288,27" fontSize="20" color="#ff0000" text="注：账号为10位以下纯数字组成">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </text>
+    <component id="n15_s2b2" name="LoginButton" src="s2b25" fileName="Components/LoginButton.xml" xy="172,410" size="77,47">
+      <relation target="" sidePair="center-center%,bottom-bottom%"/>
+    </component>
+  </displayList>
+  <transition name="Light" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Color" target="n12_s2b2" tween="true" startValue="#ff0000" endValue="#00ff00" duration="24"/>
+    <item time="24" type="Color" target="n12_s2b2" tween="true" startValue="#00ff00" endValue="#ffff00" duration="24"/>
+    <item time="48" type="Color" target="n12_s2b2" tween="true" startValue="#ffff00" endValue="#ff0000" duration="24"/>
+  </transition>
+</component>

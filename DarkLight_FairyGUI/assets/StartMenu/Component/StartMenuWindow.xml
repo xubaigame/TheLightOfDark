@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n10_jixg" name="title" src="jixgg" xy="684,0">
+      <relation target="" sidePair="center-center%,top-top%"/>
+    </image>
+    <image id="n3_m2tz" name="GlitterImage" src="m2tz7" xy="667,691" size="545,83">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </image>
+    <component id="n8_xg0m" name="LoadGameButton" src="xg0me" xy="850,743" size="220,77" group="n6_m2tz"/>
+    <component id="n9_xg0m" name="NewGameButton" src="xg0mf" xy="850,660" size="220,70" group="n6_m2tz"/>
+    <group id="n6_m2tz" name="StartButton" xy="850,660" size="220,160" advanced="true" collapsed="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </group>
+    <image id="n0_m9x7" name="StartBG" src="m9x71" xy="0,0" size="1920,1080" hideByEditor="true">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </image>
+  </displayList>
+  <transition name="SceneStart">
+    <item time="0" type="Alpha" target="n0_m9x7" tween="true" startValue="1" endValue="0" duration="48"/>
+  </transition>
+  <transition name="Glitter" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="Alpha" target="n3_m2tz" tween="true" startValue="0" endValue="1" duration="24"/>
+    <item time="24" type="Alpha" target="n3_m2tz" tween="true" startValue="1" endValue="0" duration="24"/>
+    <item time="48" type="Alpha" target="n3_m2tz" tween="true" startValue="0"/>
+  </transition>
+</component>

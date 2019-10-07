@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="elbjenw9" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="s2b20" name="LoginMenuWindow.xml" path="/Components/" exported="true"/>
+    <image id="s2b21" name="mapname.png" path="/Res/"/>
+    <image id="s2b22" name="window-amoutdrop.png" path="/Res/"/>
+    <image id="s2b23" name="Button-Ok.png" path="/Res/"/>
+    <image id="s2b24" name="Button-Ok-Down.png" path="/Res/"/>
+    <component id="s2b25" name="LoginButton.xml" path="/Components/" exported="true"/>
+  </resources>
+  <publish name="LoginMenu" path="F:\Unity\Projects\Dark Light\Unity\联网版\Dark Light\Assets\Resources\FairyGUI\LoginMenu"/>
+</packageDescription>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="rpe541fa" jpegQuality="80" compressPNG="true">
+  <resources>
+    <component id="ok4i3" name="MuteButton.xml" path="/Components/" exported="true"/>
+    <component id="ok4i4" name="SystemMenuWindow.xml" path="/Components/" exported="true"/>
+    <image id="ok4i6" name="window-amoutdrop.png" path="/Res/"/>
+    <image id="ok4i7" name="MenuHead-Equip.png" path="/Res/"/>
+    <image id="ok4i8" name="button-quit.png" path="/Res/"/>
+    <image id="ok4i9" name="button-quit-down.png" path="/Res/"/>
+    <component id="ok4ia" name="QuitGameButton.xml" path="/Components/" exported="true"/>
+  </resources>
+  <publish name="SystemMenu" path="F:\Unity\Projects\Dark Light\Unity\联网版\Dark Light\Assets\Resources\FairyGUI\SystemMenu"/>
+</packageDescription>

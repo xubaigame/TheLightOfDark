@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="412,185">
+  <displayList>
+    <image id="n3_dvhh" name="BG" src="dvhhe" xy="0,0" size="412,185"/>
+    <loader id="n1_dvhh" name="icon" xy="1,0" size="113,123">
+      <relation target="" sidePair="left-left%,middle-middle%"/>
+    </loader>
+    <text id="n4_dvhh" name="n4" xy="117,3" size="62,27" fontSize="20" color="#ffff00" vAlign="middle" text="名称  :">
+      <relation target="n1_dvhh" sidePair="left-right%,top-top%"/>
+    </text>
+    <text id="n5_dvhh" name="n5" xy="117,47" size="62,27" fontSize="20" color="#ffff00" vAlign="middle" autoSize="none" text="效果  :">
+      <relation target="n4_dvhh" sidePair="center-center%,top-bottom%"/>
+    </text>
+    <text id="n6_dvhh" name="n6" xy="117,93" size="62,27" fontSize="20" color="#ffff00" vAlign="middle" autoSize="none" text="售价  :">
+      <relation target="n5_dvhh" sidePair="center-center%,top-bottom%"/>
+    </text>
+    <text id="n7_dvhh" name="Name" xy="181,3" size="93,27" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="n4_dvhh" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <text id="n8_dvhh" name="Effect" xy="181,47" size="93,27" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="n5_dvhh" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <text id="n9_dvhh" name="Money" xy="181,93" size="95,27" fontSize="20" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="n6_dvhh" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <component id="n10_dvhh" name="BuyButton" src="dvhhf" xy="289,22" size="114,80">
+      <relation target="" sidePair="right-right%,top-top%"/>
+    </component>
+    <component id="n11_dvhh" name="AddCountButton" src="dvhhb" xy="48,123" size="60,60">
+      <relation target="" sidePair="center-center%,bottom-bottom%"/>
+    </component>
+    <component id="n12_dvhh" name="CutCountButton" src="dvhhc" xy="273,123" size="60,60">
+      <relation target="" sidePair="center-center%,bottom-bottom%"/>
+    </component>
+    <text id="n13_dvhh" name="Count" xy="123,135" size="136,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" ubb="true" autoSize="none" text="0">
+      <relation target="" sidePair="center-center"/>
+    </text>
+  </displayList>
+</component>

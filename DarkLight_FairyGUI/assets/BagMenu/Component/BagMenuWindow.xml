@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="455,477">
+  <displayList>
+    <component id="n0_qc6h" name="frame" src="qc6h9" pkg="q0h43ypj" xy="0,0">
+      <relation target="" sidePair="center-center%,middle-middle%"/>
+    </component>
+    <image id="n1_qc6h" name="Title" src="qc6h3" pkg="q0h43ypj" xy="115,0">
+      <relation target="" sidePair="center-center%,top-top%"/>
+    </image>
+    <list id="n2_qc6h" name="SlotList" xy="21,91" size="411,297" layout="flow_hz" overflow="scroll" lineGap="5" colGap="10" align="center" autoClearItems="true">
+      <relation target="" sidePair="center-center%,top-top%"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+      <item url="ui://qt1hjre8qc6h9"/>
+    </list>
+    <image id="n3_oo0e" name="Coin" src="qc6h3" xy="227,403" size="58,51">
+      <relation target="n5_oo0e" sidePair="right-left%,middle-middle%"/>
+    </image>
+    <text id="n5_oo0e" name="CoinNumber" xy="296,412" size="127,39" font="仿宋" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="10000">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </text>
+  </displayList>
+</component>

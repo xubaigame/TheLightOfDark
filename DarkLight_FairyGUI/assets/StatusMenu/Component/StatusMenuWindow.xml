@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="445,477" overflow="hidden">
+  <displayList>
+    <component id="n0_uk09" name="frame" src="qc6h9" pkg="q0h43ypj" xy="0,0"/>
+    <image id="n1_uk09" name="title" src="uk092" xy="115,0">
+      <relation target="" sidePair="center-center%,top-top"/>
+    </image>
+    <text id="n2_uk09" name="n2" xy="66,98" size="155,39" group="n5_uk09" fontSize="30" color="#ffff00" align="center" vAlign="middle" text="伤害         =">
+      <relation target="" sidePair="left-left%,top-top%"/>
+    </text>
+    <text id="n7_uk09" name="n7" xy="186,353" size="95,39" group="n5_uk09" fontSize="30" color="#ffff00" align="center" vAlign="middle" text="战斗力">
+      <relation target="" sidePair="center-center%,bottom-bottom%"/>
+    </text>
+    <text id="n6_uk09" name="n6" xy="67,292" size="159,39" group="n5_uk09" fontSize="30" color="#ffff00" align="center" vAlign="middle" text="剩余点数  =">
+      <relation target="n4_uk09" sidePair="center-center%,bottom-top%"/>
+    </text>
+    <text id="n3_uk09" name="n3" xy="66,157" size="155,39" group="n5_uk09" fontSize="30" color="#ffff00" align="center" vAlign="middle" text="防御         =">
+      <relation target="n2_uk09" sidePair="center-center%,bottom-bottom%"/>
+    </text>
+    <text id="n4_uk09" name="n4" xy="66,215" size="155,39" group="n5_uk09" fontSize="30" color="#ffff00" align="center" vAlign="middle" text="速度         =">
+      <relation target="n3_uk09" sidePair="center-center%,top-bottom%"/>
+    </text>
+    <group id="n5_uk09" name="Lable" xy="66,98" size="217,294" collapsed="true"/>
+    <text id="n9_uk09" name="Total" xy="52,406" size="353,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="center-center%,bottom-bottom%"/>
+    </text>
+    <text id="n10_uk09" name="RemainPoint" xy="242,292" size="138,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="" sidePair="right-right%,bottom-bottom%"/>
+    </text>
+    <text id="n11_uk09" name="Speed" xy="257,215" size="102,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="n4_uk09" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <text id="n12_uk09" name="Defense" xy="257,157" size="102,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="n3_uk09" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <text id="n13_uk09" name="Attack" xy="257,98" size="102,39" fontSize="30" color="#ffff00" align="center" vAlign="middle" autoSize="none" text="">
+      <relation target="n2_uk09" sidePair="left-right%,middle-middle%"/>
+    </text>
+    <component id="n14_uk09" name="AddAttackButton" src="uk094" xy="375,98" size="39,39">
+      <relation target="" sidePair="right-right%,top-top%"/>
+    </component>
+    <component id="n15_uk09" name="AddDefButton" src="uk094" xy="375,157" size="39,39">
+      <relation target="n14_uk09" sidePair="center-center%,top-bottom%"/>
+    </component>
+    <component id="n16_uk09" name="AddSpeedButton" src="uk094" xy="375,215" size="39,39">
+      <relation target="n15_uk09" sidePair="center-center%,top-bottom%"/>
+    </component>
+  </displayList>
+</component>

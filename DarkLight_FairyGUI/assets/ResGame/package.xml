@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="gk2urdkm" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="oo0e0" name="icon-potion1.png" path="/" exported="true"/>
+    <image id="oo0e1" name="icon-potion3.png" path="/" exported="true"/>
+    <image id="oo0e2" name="icon-potion2.png" path="/" exported="true"/>
+    <sound id="uk093" name="button.mp3" path="/" exported="true"/>
+    <image id="qr7y4" name="armor3-icon.png" path="/" exported="true"/>
+    <image id="qr7y5" name="icon-helm-02.png" path="/" exported="true"/>
+    <image id="qr7y6" name="icon-helm-03.png" path="/" exported="true"/>
+    <image id="qr7y7" name="icon-shield.png" path="/" exported="true"/>
+    <image id="qr7y8" name="icon-shield1.png" path="/" exported="true"/>
+    <image id="qr7y9" name="rod-icon.png" path="/" exported="true"/>
+    <image id="qr7ya" name="rod-icon02.png" path="/" exported="true"/>
+    <image id="qr7yb" name="rod-icon03.png" path="/" exported="true"/>
+    <image id="qr7yc" name="armor2-icon.png" path="/" exported="true"/>
+    <image id="qr7yd" name="icon-boot0.png" path="/" exported="true"/>
+    <image id="qr7ye" name="icon-boot0-01.png" path="/" exported="true"/>
+    <image id="qr7yf" name="icon-etcFur.png" path="/" exported="true"/>
+    <image id="qr7yg" name="icon-etcFang.png" path="/" exported="true"/>
+    <image id="dj5yh" name="skill-01.png" path="/" exported="true"/>
+    <image id="dj5yi" name="skill-02.png" path="/" exported="true"/>
+    <image id="dj5yj" name="skill-03.png" path="/" exported="true"/>
+    <image id="dj5yk" name="skill-04.png" path="/" exported="true"/>
+    <image id="dj5yl" name="skill-05.png" path="/" exported="true"/>
+    <image id="dj5ym" name="skill-06.png" path="/" exported="true"/>
+    <image id="dj5yn" name="skill-07.png" path="/" exported="true"/>
+    <image id="dj5yo" name="skill-08.png" path="/" exported="true"/>
+    <image id="dj5yp" name="skill-09.png" path="/" exported="true"/>
+    <image id="dj5yq" name="skill-10.png" path="/" exported="true"/>
+    <image id="dj5yr" name="skill-11.png" path="/" exported="true"/>
+    <image id="dj5ys" name="skill-12.png" path="/" exported="true"/>
+    <image id="dj5yt" name="skill-13.png" path="/" exported="true"/>
+  </resources>
+  <publish name="ResGame" path="F:\Unity\Projects\Dark Light\Unity\Code\Dark Light\Assets\Resources\FairyGUI\ResGame"/>
+</packageDescription>

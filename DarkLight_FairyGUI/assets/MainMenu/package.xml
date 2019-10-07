@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="tf10qu8x" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="gd3m0" name="menu-bag.png" path="/Res/"/>
+    <image id="gd3m1" name="menu-bag-down.png" path="/Res/"/>
+    <image id="gd3m2" name="menu-equip.png" path="/Res/"/>
+    <image id="gd3m3" name="menu-equip-down.png" path="/Res/"/>
+    <image id="gd3m4" name="menu-setting.png" path="/Res/"/>
+    <image id="gd3m5" name="menu-setting-down.png" path="/Res/"/>
+    <image id="gd3m6" name="menu-skill.png" path="/Res/"/>
+    <image id="gd3m7" name="menu-skill-down.png" path="/Res/"/>
+    <image id="gd3m8" name="menu-status.png" path="/Res/"/>
+    <image id="gd3m9" name="menu-status-down.png" path="/Res/"/>
+    <sound id="gd3ma" name="sfx_nextDialog.wav" path="/Res/"/>
+    <component id="gd3mb" name="MainMenuWindow.xml" path="/Component/" exported="true"/>
+    <component id="gd3mc" name="BagButton.xml" path="/Component/" exported="true"/>
+    <component id="gd3md" name="EquipButton.xml" path="/Component/" exported="true"/>
+    <component id="qc6he" name="SettingButton.xml" path="/Component/" exported="true"/>
+    <component id="qc6hf" name="SkillButton.xml" path="/Component/" exported="true"/>
+    <component id="qc6hg" name="StatusButton.xml" path="/Component/" exported="true"/>
+    <component id="dj5yh" name="SlotButton.xml" path="/Component/" exported="true"/>
+    <image id="dj5yi" name="Slot-layout.png" path="/Res/"/>
+    <image id="dj5yt" name="Bar-frame.png" path="/Res/"/>
+    <image id="dj5yu" name="Bar-hp.png" path="/Res/"/>
+    <component id="dj5yv" name="HPSlider_grip.xml" path="/Component/" exported="true"/>
+    <component id="dj5yw" name="HPSlider.xml" path="/Component/" exported="true"/>
+    <image id="dj5yx" name="Bar-mp.png" path="/Res/"/>
+    <component id="dj5yy" name="MPSlider_grip.xml" path="/Component/" exported="true"/>
+    <component id="dj5yz" name="MPSlider.xml" path="/Component/" exported="true"/>
+    <image id="jbht11" name="frame-minimap.png" path="/Res/"/>
+    <component id="jbht12" name="AddCountButton.xml" path="/Component/" exported="true"/>
+    <image id="jbht13" name="minimap-zoomin.png" path="/Res/"/>
+    <image id="jbht14" name="minimap-zoomin-down.png" path="/Res/"/>
+    <component id="jbht15" name="CutCountButton.xml" path="/Component/" exported="true"/>
+    <image id="jbht16" name="minimap-zoomout.png" path="/Res/"/>
+    <image id="jbht17" name="minimap-zoomout-down.png" path="/Res/"/>
+    <image id="rqqd18" name="Bar-exp.png" path="/Res/"/>
+    <image id="rqqd19" name="bar-expframe.png" path="/Res/"/>
+    <component id="rqqd1b" name="ExpSlider.xml" path="/Component/" exported="true"/>
+    <image id="jqzr1c" name="button-quit.png" path="/Res/"/>
+    <image id="jqzr1d" name="button-quit-down.png" path="/Res/"/>
+    <component id="jqzr1e" name="QuitGame.xml" path="/Component/" exported="true"/>
+  </resources>
+  <publish name="MainMenu" path="F:\Unity\Projects\Dark Light\Unity\联网版\Dark Light\Assets\Resources\FairyGUI\MainMenu"/>
+</packageDescription>

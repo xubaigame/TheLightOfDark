@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="340,63" extention="Label">
+  <displayList>
+    <image id="n3_oo0e" name="n3" src="oo0ee" xy="0,0" size="340,63">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </image>
+    <text id="n1_oo0e" name="title" xy="25,13" size="292,40" fontSize="30" color="#ffff00" align="center" ubb="true" autoSize="height" text="&#xA;"/>
+  </displayList>
+  <relation target="n1_oo0e" sidePair="width-width,height-height"/>
+</component>

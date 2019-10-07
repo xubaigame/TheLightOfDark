@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="445,477" extention="Label" adaptationTest="FitSize">
+  <displayList>
+    <image id="n0_qc6h" name="BG" src="qc6h7" xy="0,0">
+      <relation target="" sidePair="width-width%,height-height%"/>
+    </image>
+    <component id="n1_qc6h" name="closeButton" src="qc6h8" xy="396,16" size="50,50">
+      <relation target="" sidePair="right-right%,top-top%"/>
+    </component>
+    <graph id="n4_qc6h" name="dragArea" xy="115,0" size="233,73">
+      <relation target="" sidePair="center-center%,top-top%"/>
+    </graph>
+  </displayList>
+</component>
