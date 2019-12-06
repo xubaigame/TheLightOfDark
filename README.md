@@ -1,13 +1,10 @@
 # 黑暗之光
 
-**作者：vili &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;联系方式：vili_wzl@126.com**
+**作者：积极向上小木木 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;联系方式：PositiveMumu@126.com**
 
 *黑暗之光是一款单机ARPG游戏，不过在运行时需要连接数据库(因为开发时正好赶上数据库课程，就顺手当做大作业了)。*
 
 *也就是说如果数据库在服务器上就需要有网(别问为啥没用那种类似sqlite的本地数据库，问就是不知道)。*
-
-[TOC]
-
 
 ## 一、项目介绍
 
