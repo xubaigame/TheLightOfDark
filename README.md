@@ -122,34 +122,45 @@
 
 1. 登录
 
-	![mark](http://image.vilicode.com/blog/20191007/Pzh3hwIBi1P3.png?imageslim)
+![登录](README/登录.png)
+	
 2. 选择模式
 
-	![mark](http://image.vilicode.com/blog/20191007/DBETX1IUMaIG.png?imageslim)
+![选择模式](README/选择模式.png)
+
 3. 人物选择
 
-	![mark](http://image.vilicode.com/blog/20191007/tNXXyeRj8460.png?imageslim)
+![人物选择](README/人物选择.png)
+
 4. 游戏地图
 
-	![mark](http://image.vilicode.com/blog/20191007/gMuQ5W63iivK.png?imageslim)
+![游戏地图](README/游戏地图.png)
+
 5. 基础功能界面
 
-	![mark](http://image.vilicode.com/blog/20191007/xSFly2unseqC.png?imageslim)
+![基础功能界面](README/基础功能界面.png)
+
 6. 装备商店
 
-	![mark](http://image.vilicode.com/blog/20191007/ElYaSaRLqKtM.png?imageslim)
+![装备商店](README/装备商店.png)
+
 7. 药品商店
 
-	![mark](http://image.vilicode.com/blog/20191007/G8kdkj55yCaU.png?imageslim)
+![药品商店](README/药品商店.png)
+
 8. 任务界面
 
-	![mark](http://image.vilicode.com/blog/20191007/mNEWrReUDd50.png?imageslim)
+![任务界面](README/任务界面.png)
+
 9. 敌人
 
-	![mark](http://image.vilicode.com/blog/20191007/77xqIgte16Bn.png?imageslim)
+![登录](README/登录.png)
+
 10. 攻击
 
-	![mark](http://image.vilicode.com/blog/20191007/7nm0aJcIe0CS.png?imageslim)
+![攻击](README/攻击.png)
+
 11. 死亡
 
-	![mark](http://image.vilicode.com/blog/20191007/mm7ajDzLbcOU.png?imageslim)
+![死亡](README/死亡.png)
+
